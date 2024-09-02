@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+  --ff-inter: "Inter", sans-serif;
+}
+body{
+    font-family: var(--ff-inter);
+}
+ul{
+    color: var(--Dark-grayish-blue);
+}
+.mobile-nav{
+    color: var(--Very-dark-blue);
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 4rem;
+}
+.hamburger-close{
+    margin: 1rem 0 0 19rem;
+}
+.div-1-h1{
+    font-weight: 800;
+    font-size: 50px;
+    max-width: 40%;
+}
+.div-1-ii{
+    padding: 10px;
+    
+}
+.div-1-p{
+    font-size: 17px;
+    line-height: 1.5rem;
+    width: 90%;
+    color: var(--Dark-grayish-blue);
+}
+button{
+    background-color: var(--Soft-red);
+    height: 50px;
+    width: 200px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: var(--Very-dark-blue);
+}
+.div-2{
+    background-color: var(--Very-dark-blue);
+    padding: 20px;
+}
+.div-2 > h1{
+    color: var(--Soft-orange);
+    font-weight: 600;
+}
+h3{
+    color: var(--Off-white);
+    font-size: 20px;
+}
+.div-2 p, hr{
+    color: var(--Grayish-blue);
+    font-size: 15px;
+}
+@media(max-width:575px){
+    .div-1-h1{
+        max-width: 100%;
+    }
+}
